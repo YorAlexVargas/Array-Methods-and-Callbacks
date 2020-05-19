@@ -7,6 +7,17 @@ console.log('its working');
 /* Task 1: Investigate the data above. Practice accessing data by console.log-ing the following pieces of data 
 
 (a) Home Team name for 2014 world cup final
+const hNameT2014 =
+fifaData.filter(function(item){
+    return item["Year"] === 2014);
+    return item["Stage"] ==="Finals");
+    return item["Home Team Name"]);
+    })
+    console.log(hNameT2014)
+    //
+
+
+
 (b) Away Team name for 2014 world cup final
 (c) Home Team goals for 2014 world cup final
 (d) Away Team goals for 2014 world cup final
